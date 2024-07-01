@@ -1,0 +1,20 @@
+name: 'TheChosenOne'
+version: '1.0.0'
+main: net.lostteku.TheChosenOne
+api-version: 1.21
+commands:
+  heal:
+    permission: system.*
+    usage: '/heal <optional: spielername>'
+  feed:
+    permission: op
+    usage: '/feed <optional: spielername>'
+  ban:
+    permission: op
+    usage: '/ban <username, grund, dauer'
+  unban:
+    permission: op
+    usage: '/unban <username>'
+  permission:
+    permission: op
+    usage: '/permission <add/remove> <spielername> <permission>'
